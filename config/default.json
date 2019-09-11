@@ -1,6 +1,6 @@
 {
-    "appSecret": "",
-    "pageAccessToken": "",
-    "validationToken": "",
-    "serverURL": ""
+    "appSecret": "0ff711fb17124718afba3de39e1adbca",
+    "pageAccessToken": "EAAQ4OM3ASNUBAK6bsxxZCGvZAsl58uQ53ubZCcErk7Ti4VzmvHPPsljTqdlZCq4OKeZBk0sMTtQJwUvv6aI2aaZAPyLZBefqwRqkc0pVxExHSDUvtIt1xZAma096VG9F1rQOglJvRHQLmH1FJblVC98cZBZAymPEpIvroNDwvrf7LmBuexDmz7vaiZA",
+    "validationToken": "cboriginal",
+    "serverURL": "https://infinite-journey-74984.herokuapp.com/"
 }
