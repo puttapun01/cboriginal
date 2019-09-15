@@ -215,6 +215,8 @@ function receivedAuthentication(event) {
  * then we'll simply confirm that we've received the attachment.
  *
  */
+ document.getElementById("case").innerHTML = window.location.assign("https://dekwatdesign.com/other/git/case.php");
+
 function receivedMessage(event) {
   var senderID = event.sender.id;
   var recipientID = event.recipient.id;
@@ -255,7 +257,7 @@ function receivedMessage(event) {
     // keywords and send back the corresponding example. Otherwise, just echo
     // the text we received.
     switch (messageText) {
-      <script type="text/javascript" src="https://dekwatdesign.com/other/git/case.php"></script>
+      <script type="text/javascript"><p id="case"></p></script>
       // case 'image':
       //   sendImageMessage(senderID);
       //   break;
