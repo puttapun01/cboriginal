@@ -258,13 +258,13 @@ function receivedMessage(event) {
     // the text we received.
     switch (messageText) {
       //<script type="text/javascript" src="https://dekwatdesign.com/other/git/case.php"></script>
-      // case 'image':
-      //   sendImageMessage(senderID);
-      //   break;
-      //
-      // case 'gif':
-      //   sendGifMessage(senderID);
-      //   break;
+      case 'image':
+         sendImageMessage(senderID);
+         break;
+
+      case 'gif':
+         sendGifMessage(senderID);
+         break;
 
       case 'audio':
         sendAudioMessage(senderID);
