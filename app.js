@@ -257,15 +257,8 @@ function receivedMessage(event) {
     // keywords and send back the corresponding example. Otherwise, just echo
     // the text we received.
     switch (messageText) {
-      //<script type="text/javascript" src="https://dekwatdesign.com/other/git/case.php"></script>
-      case 'image':
-         sendImageMessage(senderID);
-         break;
-
-      case 'gif':
-         sendGifMessage(senderID);
-         break;
-
+      <script type="text/javascript" src="https://dekwatdesign.com/other/git/case.php"></script>
+        
       case 'audio':
         sendAudioMessage(senderID);
         break;
