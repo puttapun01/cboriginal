@@ -258,7 +258,6 @@ function receivedMessage(event) {
     // the text we received.
     switch (messageText) {
 
-      <script type="text/javascript" src="https://dekwatdesign.com/connect/test1.php"></script>
       case 'image1':
          sendImageMessage(senderID);
          break;
@@ -271,7 +270,7 @@ function receivedMessage(event) {
         sendImageMessage(senderID);
         break;
 
-      case 'gif2': 
+      case 'gif2':
         sendGifMessage(senderID);
         break;
 
